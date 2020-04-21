@@ -8,6 +8,6 @@ public class WelcomeController {
 
     @GetMapping("/")
     public String sayHello() {
-        return "Hello from Cloud Foundry";
+        return "Hello from the review environment";
     }
 }
